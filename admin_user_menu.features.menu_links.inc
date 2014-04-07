@@ -84,11 +84,11 @@ function admin_user_menu_menu_default_menu_links() {
     'weight' => '-50',
     'parent_path' => 'admin/structure',
   );
-  // Exported menu link: menu-admin-user-menu:admin/structure/nodequeue
-  $menu_links['menu-admin-user-menu:admin/structure/nodequeue'] = array(
+  // Exported menu link: menu-admin-user-menu:admin/structure/nodequeue/2/view/2
+  $menu_links['menu-admin-user-menu:admin/structure/nodequeue/2/view/2'] = array(
     'menu_name' => 'menu-admin-user-menu',
-    'link_path' => 'admin/structure/nodequeue',
-    'router_path' => 'admin/structure/nodequeue',
+    'link_path' => 'admin/structure/nodequeue/2/view/2',
+    'router_path' => 'admin/structure/nodequeue/%/view/%',
     'link_title' => 'Banner',
     'options' => array(
       'attributes' => array(
